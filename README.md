@@ -1,7 +1,7 @@
 # scriptio-continua
 Orthographic word finder for texts without spaces
 
-This program (written in C++ solely for convenience of vector<T>) will take in an English text that is written without spaces and provide all the different ways to place the spaces given its provided list of words.
+This program (written in C++ solely for convenience of vector\<T>) will take in an English text that is written without spaces and provide all the different ways to place the spaces given its provided list of words.
 
 It splits the text by periods, since all interpretations must agree on them, and eliminates all non alphabetic characters for simplicity.
 
