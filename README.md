@@ -15,4 +15,6 @@ The dictionary is loaded into a trie for quick as-we-read indexing. The differen
 
 I am looking for find a more sparse dictionary that still includes word inflections. At the moment, too many interpretations are considered valid. For example, "th" is considered a valid orthographic word, probably since it is the chemical symbol for thorium, but I doubt Lincoln mentioned it in his Gettysburg address. Once I find/produce a better word list, this program should be a nice way to find clever ambiguities that arise when spaces are omitted.
 
+The current dictionary (included) is from sil.org, and the Gettysburg Adress (included) is from textfiles.com.
+
 Anyone is free to modify/distribute/do whatever with this. No guarantees of anything.
