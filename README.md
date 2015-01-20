@@ -5,7 +5,7 @@ This program (written in C++ solely for convenience of vector\<T>) will take in 
 
 It splits the text by periods, since all interpretations must agree on them, and eliminates all non alphabetic characters for simplicity.
 
-I wrote this quickly, so it currently is entirely contained in main.cpp. My apologies. The code is manageable though since it is small.
+I wrote this quickly, so it currently is entirely contained in main.cpp. My apologies. The code is manageable though since it is small. Tested with g++ -std=c++11 -O2.
 
 **How it works:**
 
