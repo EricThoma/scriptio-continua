@@ -9,7 +9,7 @@ I wrote this quickly, so it currently is entirely contained in main.cpp. My apol
 
 **How it works:**
 
-The dictionary is loaded into a trie for quick as-we-read indexing. The different ways to space-ify are represented in a tree, in which the place of the space is stored. The program will find all possible next spaces from a given point, and for each point it will repeat this process recursively. If it finds leftover text before the period that it cannot make into a word, it will declare the last space invalid and delete it. That is, if ever it is found there is no valid next space, the current space is deleted (and this deletion will be back propagated naturally). The resulting tree encodes all possible spacings for the sentence.
+The dictionary is loaded into a trie for quick as-we-read indexing. The different ways to add spaces are represented in a tree, in which the position of the space is stored. The program will find all possible next spaces from a given point, and for each point it will repeat this process recursively. If it finds leftover text before the period that it cannot make into a word, it will declare the last space invalid and delete it. That is, if ever it is found there is no valid next space, the current space is deleted (and this deletion will be back propagated naturally by the recursion). The resulting tree encodes all possible spacings for the sentence.
 
 **What is wrong with it:**
 
