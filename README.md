@@ -13,7 +13,7 @@ The dictionary is loaded into a trie for quick as-we-read indexing. The differen
 
 **What is wrong with it:**
 
-I am looking for find a more sparse dictionary that still includes word inflections. At the moment, too many interpretations are considered valid. For example, "th" is considered a valid orthographic word, probably since it is the chemical symbol for thorium, but I doubt Lincoln mentioned it in his Gettysburg address. Once I find/produce a better word list, this program should be a nice way to find clever ambiguities that arise when spaces are omitted.
+I am looking for find a more sparse dictionary that still includes word inflections. At the moment, too many interpretations are considered valid. For example, "th" is considered a valid orthographic word, probably since it is the chemical symbol for thorium, but I doubt Lincoln mentioned it in his Gettysburg address. If one finds/produces a better dictionary, this program could be a nice way to find ambiguities that arise when spaces are omitted. Also, the tree-like nature of the problem means that it might "hang" on larger inputs.
 
 The current dictionary (included) is from sil.org, and the Gettysburg Adress (included) is from textfiles.com.
 
